@@ -1,0 +1,53 @@
+img {
+    /* Your code goes here */
+    
+    position: relative;
+        right: 10px;
+    z-index: 1;
+
+    border: 1px;
+    padding: 2px;
+    margin: 1px;
+
+    box-shadow: 17px 12px 17px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+
+
+.words {
+    font-family: impact;
+    font-size: 60px;
+    z-index: 2;
+}
+
+.first {
+    /* Your code goes here */
+    position: absolute;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    left: 140px;
+    top: 85px;
+    z-index: 2;
+}
+
+.heart {
+    color: red;
+    font-size: 80px;
+    /* Your code goes here */
+    z-index: 2;
+    position: absolute;
+    left: 170px;
+    top: 80px;
+}
+
+.last {
+    /* Your code goes here */
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 70px;
+    z-index: 2;
+    position: absolute;
+    left: 140px;
+    top: 150px;
+}
