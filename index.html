@@ -14,19 +14,29 @@
             width: 100px;
 
             /* Part of your solution goes here */
-
+            animation-name: moveFraction;
+            animation-duration: 5s;
+            animation-delay: 1s;
          }
 
          /* moveFraction goes here */
+         @keyframes moveFraction {
+            0% {color: yellow; transform: translate(-355px, 60px);}
+            50% {transform: translate(0px, 60px);}
+            100% {transform: translate(0px, 0px); color: red;}
+         }
 
 
          #question {
             /* Part of your solution goes here */
+            transition: .3s ease;
 
          }
 
          #question:hover {
             /* Part of your solution goes here */
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 
          }
 
